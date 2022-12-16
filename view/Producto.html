@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/producto.css">
+        <script src="../dto/producto.js"></script>
+        <script src="../locator/locatorprod.js"></script>
+        <script src="../view/Producto.js"></script>
+        <title>ventas</title>
+    </head>
+<body class="fondo" onload="getAll()">
+        <h3 class="titulo1">Productos</h3>
+        <hr>
+        <div>
+            <div class="input">
+                <label for="name"></label>
+                <input type="text" id="sku">
+            </div>
+            <br>
+            <div class="input">
+                <label for="name">Descripcion</label>
+                <input type="text" id="dsproducto">
+            </div>
+            
+            <button type="button" class="guardar" onclick="insert()">Guardar</button>
+            <button class="actualziar" onclick="update()">Actualziar</button>
+            <button class="eliminar" onclick="delet()">Borrar</button>
+             
+        </div>
+
+        <div >
+            <table class="table" id="lista_producto">
+                <thead>
+                    <tr>
+                        <th>codigo</th>
+                        <th>producto</th>
+                    </tr>
+                </thead>
+                    <tbody style="margin-top: 5%; text-align: center;" id="lista_cliente_body">
+
+                    </tbody>
+            </table>
+        </div>
+    </body>
+</html>

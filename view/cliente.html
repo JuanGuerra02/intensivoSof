@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/cliente.css">
+        <script src="../dto/cliente.js"></script>
+        <script src="../locator/locatorcli.js"></script>
+        <script src="../view/cliente.js"></script>
+        <title>ventas</title>
+    </head>
+<body class="fondo" onload="getAll()">
+        <h3 class="titulo1">Clientes</h3>
+        <hr>
+        <div>
+            <div class="input">
+                <label for="name">ID cliente</label>
+                <input type="text" id="sku">
+            </div>
+            <br>
+            <div class="input">
+                <label for="name">Documento</label>
+                <input type="text" id="dsproducto">
+            </div>
+            <br>
+            <div class="input">
+                <label for="name">Nombres</label>
+                <input type="text" id="dsproducto">
+            </div>
+            <br>
+            <div class="input">
+                <label for="name">Apellidos</label>
+                <input type="text" id="dsproducto">
+            </div>
+            <br>
+            <div class="input">
+                <label for="name">Direccion</label>
+                <input type="text" id="dsproducto">
+            </div>
+            <br>
+            <br>
+            
+            <button type="button" class="guardar" onclick="insert()">Guardar</button>
+            <button class="actualziar" onclick="update()">Actualziar</button>
+            <button class="eliminar" onclick="delet()">Borrar</button>
+             
+        </div>
+
+        <div >
+            <table class="table" id="lista_producto">
+                <thead>
+                    <tr>
+                        <th>codigo</th>
+                        <th>producto</th>
+                    </tr>
+                </thead>
+                    <tbody style="margin-top: 5%; text-align: center;" id="lista_producto_body">
+
+                    </tbody>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+.table {
+    border-radius: 2rem;
+    margin-top: 1%;
+    width: 30%;
+    margin-left: 35%;
+    background-color: rgb(46, 238, 252);
+    box-shadow: 0px 2px 10px -6px black;
+}
+
+.titulo1 {
+    margin-top: 2%;
+    margin-left: 45%; 
+    color: aliceblue;
+}
+.titulo2 { 
+    margin-top: 2%;
+    margin-left: 44%; 
+    color: aliceblue;
+}
+
+.input {
+    margin-left: 40%;  
+    color: aliceblue;
+}
+
+.guardar {
+    border-radius: 0.5rem;
+    margin-top: 0.5%;
+    width: 5%;
+    margin-left: 46%;
+    background-color: rgb(46, 238, 252);
+    box-shadow: 0px 2px 10px -6px black;
+}
+.actualziar {
+    margin-top: 0.5%;
+    border-radius: 0.5rem;
+    width: 7%;
+    margin-left: 46%;
+    background-color: rgb(46, 238, 252);
+    box-shadow: 0px 2px 10px -6px black;
+
+}
+.eliminar {
+    margin-top: 0.5%;
+    border-radius: 0.5rem;
+    width: 5%;
+    margin-left: 46%;
+    background-color: rgb(46, 238, 252);
+    box-shadow: 0px 2px 10px -6px black;
+}
+
+body{
+background-color: black;
+}
